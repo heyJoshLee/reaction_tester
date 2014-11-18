@@ -1,0 +1,68 @@
+* {
+    font-family: sans-serif;
+       font-weight: 800;
+}
+
+body {
+    margin: -15px;
+    padding: 0;
+}
+
+#box {
+    width: 100%;
+    height: 820px;
+    background-color: snow;
+    position: relative;
+    top: -20px;
+    margin: 0 auto;
+}
+
+#pageWrapper {
+    height: 800px;
+    width: 100%;
+    margin: 0px;
+}
+
+#score {
+    width: 250px;
+    padding: 20x; 10px 10px 10px
+    height: 30px;
+    visibility: hidden;
+    z-index: 20px;
+    text-align: center;
+    position: relative;
+    left: -90px;
+    margin-top: 10px;
+}
+
+#start {
+    z-index: 20;
+}
+
+#clickMe {
+    position: fixed;
+    top: 54%;
+    left: 39%;
+    color: snow;
+    font-size: 48px;
+    letter-spacing: 1.5;
+}
+
+
+button {
+    border: solid 1px black;
+    padding: 5px;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    background-color: snow;
+}
+
+#centerDiv {
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -600px;
+    visibility: visible;
+}
